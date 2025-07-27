@@ -1,6 +1,6 @@
 # Faster R-CNN Jittor
 
-> 在这里我提供两个关于faster rcnn的项目，一个是结构更简单的版本(faster-rcnn-jittor)，一个是更加模块化，结构更清晰的版本(faster-rcnn-pytprch_to_jittor)。不过后者我并没有完成地完成转换，所以放在这里是为了更好的了解faster rcnn项目的结构框架。
+> 在这里我提供两个关于faster rcnn的项目，一个是结构更简单的版本(faster-rcnn-jittor)，一个是更加模块化，结构更清晰的版本(faster-rcnn-pytorch_to_jittor)。不过后者我并没有完成地完成转换，所以放在这里是为了更好的了解faster rcnn项目的结构框架。
 
 ## 环境配置：
 
@@ -107,7 +107,7 @@ mpirun --allow-run-as-root -np N_GPU python train.py
 
 #### 3.开始网络训练
 
-`train.py`的默认参数用于训练`VOC`数据集，直接运行`train.py`即可开始训练。
+`train.py`的默认参数用于训练`VOC`数据集，直接运行`train.py`即可开始训练。backbone我选择的是vgg.
 
 #### 4.预测
 

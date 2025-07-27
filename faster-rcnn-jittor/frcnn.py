@@ -29,8 +29,8 @@ class FRCNN(object):
         #   验证集损失较低不代表mAP较高，仅代表该权值在验证集上泛化性能较好。
         #   如果出现shape不匹配，同时要注意训练时的model_path和classes_path参数的修改
         #--------------------------------------------------------------------------#
-        "model_path"    : './faster-rcnn-pytorch-master/model_data/voc_weights_resnet.pth',
-        "classes_path"  : './faster-rcnn-pytorch-master/model_data/voc_classes.txt',
+        "model_path"    : '',
+        "classes_path"  : '',
         #---------------------------------------------------------------------#
         #   网络的主干特征提取网络，resnet50或者vgg
         #---------------------------------------------------------------------#
