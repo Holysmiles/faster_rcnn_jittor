@@ -73,8 +73,6 @@ mpirun --allow-run-as-root -np N_GPU python train.py
 
 我们需要的权重包括`voc_weights_resnet.pth`或者`voc_weights_vgg.pth`以及主干的网络权重我已经上传了百度云，可以自行下载。
 
-![weigths](readme.assets/weigths.png)
-
 顺便训练好的参数我也一并放入了文件夹：
 
 - https://pan.baidu.com/s/1VIDE5Qx8vN-2_EsuVPsMUw?pwd=8888 
